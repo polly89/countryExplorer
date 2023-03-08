@@ -26,7 +26,7 @@ const Weather = () => {
         }).catch(function (error) {
             console.error(error);
         });
-    })
+    }, []);
 
     return (
         <div>
